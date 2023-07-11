@@ -10,9 +10,19 @@ public class Application {
         //a.testForExample4();
         // a.printSimpleGugudan();
 
-        B_nestedFor b = new B_nestedFor();
-       // b.printGugudanFromTwoToNine();
-       // b.printStarInputRowTimes();
-        b.printTriangleStars();
+        A_nestedFor a2 = new A_nestedFor();
+       // a2.printGugudanFromTwoToNine();
+       // a2.printStarInputRowTimes();
+       // a2.printTriangleStars();
+
+        B_while b = new B_while();
+        //b.testSimpleWhileStatement();
+       // b.testWhileExample1();
+        //b.testWhileEcample2();
+        //b.testWhileExzmple3();
+
+        C_doWhile c = new C_doWhile();
+       // c.testSimpleDoWhiileStatement();
+        c.testDoWhileExzmple1();
     }
 }
